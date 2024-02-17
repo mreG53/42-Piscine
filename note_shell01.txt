@@ -1,0 +1,13 @@
+Groups: kullanıcının üye olduğu grupları listeler.
+
+$FT_USER : Bir ortam değişkeni, ortam değişkenleri sistem genelinde veya kullanıcı oturumları arasında sabit kalmak üzere belirli değerleri saklamak için kullanılır. Örneğin 'Path' ortam değişkeni, işletim sisteminin komut dosyaları ve uygulamaları arayacağı dizinlerin listesini tutar. Bir ortam değişkeni ayarlamak veya değiştirmek için, çoğu Unix ve Linux tabanlı sistemde 'export' komutu kullanılır. Örneğin 'export FT_USER=username' komutu 'FT_USER' ortam değişkenine 'username' değerini atar. Bir ortam değişkeninin değerini kullanmak için '$' işareti ile değişken adı yazılır. Bu shellin değişkenin sakladığı değeri kullanmasını sağlar. Bu durumda, betiği çalıştıranın belirlemesi gereken bir değişkendir ve kullanıcın adını içerir. Yani , 'FT_USER' ortam değişkeni, üzerinde işlem yapılmak istenen kullanıcı adını tutar.
+
+| : pipe, bir komutun çıktısını başka bir komuta girdi olarak aktarır.
+
+tr ' ' ',' : tr, bir karakteri veya karakter setini , başka bir karakter veya karakter setiyle değiştirmek için kullanılır.
+
+tr -d "\n": -d, bir karakteri veya karakter setini silmek için kullanılır. "\n" ardından geliyor çünkü silinmesi gereken karakter o olacaktır. Sonuç tek bir satırda olur ve yeni satıra geçmiyor.
+
+Ex03:
+
+	find . | wc -l | sed 's/ //g'

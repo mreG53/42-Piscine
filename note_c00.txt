@@ -1,0 +1,12 @@
+0 - Unistd kütüphanesi unix sistemlerde yer alan kütüphane dosyasıdır.
+
+Void in geri dönüş değeri yoktur.
+
+Writedeki soldaki 1 standart çıkış dosyası yani terminalde yazdırmak için kullanılır.
+
+&c yazılacak verinin bellek adresini teslim eder.
+
+Sağdaki 1 ise yazılacak verinin uzunluğu 1 sadece 1 bytelik veri yazılacağını belirtir.
+
+
+

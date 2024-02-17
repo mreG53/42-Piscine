@@ -1,0 +1,9 @@
+Pointer : bir işaretçi bir değişkenin adres bilgisini tutar. Diğer büyün değişkenler gibi işaretçileri de kullanmadan önce işaretçimizi tanımlamalıyız. İşaretçi tanımlamaları genelde şöyle olur.
+
+veriTipi *İsaretciAdı;
+
+Yani bu oluşturacağımız değişken işaretçi bir değişkendir. Veri tipi farketmeksizin işaretçinin tuttuğu bilgi aynıdır. Bir adres bilgisini temsil eden onaltılık sayı sistemidir.
+
+ft_swap : bu fonksiyonda değişkenlerin yerini değiştiriyoruz.
+
+A tın değeri c ye atandı : B bin değeri a ya burada geçiyor geçici olarak c a anın değerini tutuğu için o değeri de b ye attık ve değerler değişti.sidebar cha

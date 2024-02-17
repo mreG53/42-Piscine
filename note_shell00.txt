@@ -1,0 +1,69 @@
+0- 
+Cat :  dosyanın içeriğini görüntüler
+Echo : yazdırmak için kullanılır
+> : bir yönlendirme operatörü soldakini sağdakine aktarır.
+
+echo "Z" > z yaptıktan sonra cat z kullandığımızda z adlı bir dosya oluşturacak ve
+içine Z yazacak dosya mevcutsa içindekini değiştirecek. 
+
+1 TestShell -
+
+ls: bulunduğumuz dizinin içinde bulunan dosya ve klasörleri listelemek için kullanılır.
+ls -l : -l özelliği listelenen dizinin içindeki özellikleri görmeye yarar. Bu bilgiler içinde chmodu yani dosya yetkisini göstermektedir. Boyutunu ve oluşturma tarihlerini de göstermektedir.
+
+R = Read = 4
+x = Çalıştırma İzni = 1
+W = Yazma izni = 2
+- = Dosya türünü belirler =0
+
+D = dizin
+L = sembolik link yani kısayol diyebiliriz.
+İlk karakter dosya türünü, 
+sonraki ilk 3 karakter dosya sahibinin dosya üzerindeki izni,
+Ortadaki üç izin karakteri dosyanın grubunun izinlerini,
+Son üç izin karakteri Sistemdeki diğer tüm kullanıcıların dosya üzerindeki izinleridir.
+Dosyadaki tarihi değiştirmek için chmod komutu ile birlikte dosya izin kısmındaki karakterlerin eşleştiği sayı değerleri vardır.
+
+2- Directorylerin hard link sayısının 2 olmasının nedeni bir üstteki klasör olması nedeniyle hardlinki 2 dir.
+Chmod -h burdaki -h sembolik linklerin yani kısayolların izinlerini değiştirmek için kullanılır.
+
+3 - SSH
+
+4 - midLS
+
+ls 
+
+-t : dosyaları son değiştirme zamanına göre sıralar en son değişen en üsttedir.
+-m : dosya listelenirken aralarında virgül olacak şekilde listelenir.
+-p : dizin yani klasör isimlerin sonuna / ekler dizinleri ayırt etmeyi kolaylaştırır.
+
+5 - git Log: commit kayıtlarını gösterir.
+
+--pretty=format:%H% dosyaların hangi formatta gözükeceğini gösterir ve H Hash demektir dosyaların id sini gösterir.
+--pretty değişiklik kaydını göster demektir.
+
+Cat - e özel işaret eklemek için yani dolar işareti eklediği için kullanılır. Yani gizli karakterleri gösterir.
+
+
+6 - git ignore git içinde görmezden geldiğimiz veya görünmesini istemediğimiz dosyaları içinde tutmamızı sağlar.
+
+-git 
+
+--ignored: yok sayılan dosyaları listeler.
+--exclude-standard: standart olmayan dosyaları göster yani standart yok sayma kurallarını uygular.
+--others: git tarafından takip edilmeyen diğer tüm dosyaları listeler örneğin IDE tarafından oluşturulan dosyalar projenin kaynak koduyla ilişkili olmayan dosyaların yoksayılması gibi.
+Bizim tarafımızdan commit atılmayan dosyalar.
+
+7 - diff: iki dosya veya dizin arasındaki farklılıkları karşılaştırmak için kullanılır.
+Patch: farklı olan kısımları bir dosyadan diğerine uygulamak için kullanılır. 
+-o: sonucun kaydedileceği dosyayı belirlemek için kullanılır.
+sw.diff: iki dosya arasındaki farkılıkları bulup farklı olanı b ye uyguluyor.
+
+
+8 - FIND
+
+Find . Bu nokta mevcut dizindeki her şeyi taramasını sağlar.
+-name den sonra yazılan kısım yıldızın solunda ise başı sağında ise sonundakini temsil eder.
+-o: find içinde veya anlamına gelir.
+-print: bulunan dosyaların adını yazdırmak için kullanılır.
+-delete : dosyaları siler

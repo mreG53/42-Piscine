@@ -1,0 +1,6 @@
+ATOI : 3 değişken oluşturuyoruz bir tane i diziyi dolaşma için
+ ne ise sayının işaretini tutmak için kullanılan değişken negatif sayılar *1 pozitif sayılar için 1 değerini alacak. Nb dönüştürülmüş sayıyı tutacak değişkendir.
+
+Döngü de stringdeki boşluk karakterlerini atlamakta, ASCII de 9 ile 13 arasında çeşitlik boşluk karakterleri vardır (Tab, Line feed vs.) ve 32 sayısı da boşluk karakterini teslim ediyor. Bu dizinin başında boşluk veya çeşitli Tab karakterleri varsa onları saymamak ve atlamak içindir.
+
++ ve - lerin eşit olduğu while döngüsünde + ve - işaretlerini okuyor ve her - işareti için ne değişkeninin işaretin i değiştiriyor , böylece sonucun doğru işaretle dönmesini sağlıyor.

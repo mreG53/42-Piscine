@@ -1,0 +1,2 @@
+Fonksiyonun önündeki pointer fonksiyonun bir parçası değil C dilinde fonksiyon tanımları arasında geri dönüş tipi ve parametreler belirtilirken kullanılan pointer o değişkenin bir pointer olduğunu gösteriyor. yani ft_strcpy fonksiyonu bir karakter pointeri char * döndürecek şekilde tanımlanmış.
+

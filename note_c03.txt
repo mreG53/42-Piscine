@@ -1,0 +1,2 @@
+strcmp de 2 stringi karşılaştırır ve farklı olanı bulduğu anda döngü durur ve ascii değerlerini çıkarıp döndürür.
+
