@@ -6,4 +6,4 @@ Havuz eğitiminde amaç öğrencileri en temelden başlatıp, Programlama ve Bil
 Eğer havuz eğitimine başlarsanız İlk projeniz olan Shell 00 ile başlayıp Terminal komutlarını öğreneceksiniz.
 Ardından C Projeleri ile başlayıp, Programlama, Pointer Aritmetiği, Clean Code, Yazdırma işlemlerini ve C'nin kütüphanelerini tekrar yazarak pratik yapmış olacaksınız ve öğreneceksiniz.
 
-Evaulation (Değerlendirme - Evo) sürecinde sizi öğrenciler değerlendirir. Okul, akran öğrenimini hedef alarak farklı bir eğitimm süreci sunmaktadır.
+Evaulation (Değerlendirme - Evo) sürecinde sizi öğrenciler değerlendirir. Okul, akran öğrenimini hedef alarak farklı bir eğitim süreci sunmaktadır.
